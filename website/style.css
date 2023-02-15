@@ -1,0 +1,383 @@
+
+body{
+  
+  background:url(pages.png)  no-repeat center center fixed;
+  background-size: cover;
+ 
+}
+ #logo {
+  text-align: right;
+  width: 300px;
+  height: 150px;
+ 
+}
+#logo1{
+  width: 300px;
+  height: 150px;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+button,.interview {
+    color: #051747 ;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #051747;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+  
+  }
+
+  input{
+    color: #051747 ;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 25px;
+    background: transparent;
+    border: none;
+  }
+  .interview {
+    width:90% ;
+    cursor: pointer;
+  }
+  
+
+  button {
+    cursor: pointer;
+  }
+ 
+
+  #positionofbutton{
+    position:absolute;
+    right:4%;
+    bottom:2%;
+
+
+}
+
+/*
+.positiondissaprove{
+  position:absolute;
+  right: 20%;
+  left: 40%;
+  
+ }
+ .positionofaprove{
+  position:absolute;
+  right: 40%;
+  left: 40%;
+  
+  
+ }*/
+
+  
+  button:hover {
+    background: #051747 ;
+    color: #fff;
+  }
+  button a.lab:hover {
+    color: #fff;
+  }
+
+  
+
+.description{
+  font-family: 'Rozha One ';
+  text-align:center;
+  color:#e7e9f0;
+  text-shadow:0 0.1em 0.2em #e7e9f0;
+}
+
+.titlead{
+  margin-left: 230px;
+  color: #051747;
+  font-size: 60px;
+}
+
+.nav {
+  
+  display: flex;
+   align-items: center;
+} 
+table{
+  width:70%;
+  table-layout: fixed;
+  
+}
+.tbl-header{
+  background-color:#e7e9f0;
+ }
+ 
+.tb1-content{
+
+  width: 900px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: #fff ; opacity: 90%;
+  padding: 20px;
+  margin: -8.5% auto ;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.t2{
+
+  width: 1100px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: #fff ; opacity: 90%;
+  padding: 20px;
+  padding-right: 60px;
+  margin: -8.5% auto ;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+th{
+  
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
+  color: #051747;
+  text-transform: uppercase;
+}
+td{
+  padding:  15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 30px;
+  color: #051747;
+  /**border-bottom: solid 1px #051747;*/
+}
+tr:hover {
+  background: #fefefe ;
+  color: #051747}
+
+ 
+  .titile{
+    margin-top: -10px;
+  margin-left: -160px;
+  color: #051747;
+  font-size: 60px;
+    font-weight:bold;
+    text-align:center;
+  }
+    .wholepage{
+      background-color: #fefefe;
+      margin-left:10%;
+      max-width: 450px;
+      padding: 30px;
+      margin: 50px auto;
+      box-shadow: 1px 1px 25px #051747(0, 0, 0, 0.35);
+      border-radius: 10px;
+    }
+    .formstyle{
+      width: 400px;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+background: #fff ; opacity: 90%;
+padding: 20px;
+margin: -4%  ;
+text-align: center;
+border-radius: 30px;
+    }
+    .label{
+      display: block;
+      margin-bottom: 10px;
+      min-height: 35px;
+      font-weight: bold;
+      text-decoration: underline;
+      color: #051747;
+      font-size: large;
+    }
+    .field{
+      box-sizing: border-box; 
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box; 
+      padding: 8px;
+      outline: none;
+      width: 100%;
+    }
+    
+    #textarea{
+      border-radius: 20px;
+      padding: 10px;
+      margin: 10px 0;
+      width: 90%;
+      height: 50px;
+      outline: none;
+    }
+    #section,#section1{
+         color:#051747;
+    }
+
+
+  
+  .container{
+    width: 50%;
+    margin: 20px auto;
+    padding-left: 270px;
+   
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+background: #fff ; opacity: 90%;
+padding: 20px;
+text-align: center;
+border-radius: 30px;
+}
+
+button a.lab  {
+  text-decoration: none;
+  color:#051747;
+}
+
+.sidebar span{
+  font-size: large;
+   }
+
+  .sidebar {
+  background: #051747;
+  margin-top: 150px;
+  padding-top: 30px;
+  position: fixed;
+  width: 250px;
+  height: 75%;
+  transition: 0.5s;
+  transition-property: left;
+  margin-left: -8px;
+  border-radius: 30px;
+ box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+ opacity: 95%;
+        
+  }
+
+  .sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  }
+
+  .sidebar h4{
+    color: white;
+    font-size: large;
+  margin-top: 0;
+  margin-bottom: 20px;
+  }
+
+   .sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+ }
+
+  .sidebar a:hover{
+  background: #263970;
+  }
+
+ .sidebar i{
+  padding-right: 10px;
+  }
+
+
+
+  h1{
+    font-size: 30px;
+  color: #051747; 
+  text-align: center;
+  }
+
+   th{
+  
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
+  color: #051747;
+  text-transform: uppercase;
+}
+td{
+  padding:  5px;
+  width: 150px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 15px;
+  color: #051747;
+  /**border-bottom: solid 1px #051747;*/
+}
+tr:hover {
+  background: #fefefe ;
+  color: #051747}
+  #button{
+    color: #051747 ;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #051747;
+    border-radius: 20px;
+    outline: none;
+  
+  }
+  #button:hover {
+    background: #051747 ;
+    color: #e7e9f0;
+  }
+
+  .sb {
+    color: #051747 ;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #051747;
+    border-radius: 20px;
+    outline: none;
+    width: 40%;
+
+  }
+
+  form {
+    text-align: center;
+  }
+ 
+  div.content{
+    margin: auto;
+   padding: 40px;
+   height: fit-content;
+   
+   }
+
+   .content {
+        margin-top: 20px;
+    padding-top: 30px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+background: #fff ; opacity: 90%;
+    height: 700px;
+    width: fit-content;
+    border-radius: 30px;
+  
+}
+
+
+
+
+
+
+
+
+ 

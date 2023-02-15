@@ -1,0 +1,295 @@
+ 
+
+
+
+
+   body {
+      background:url(pages.png)  no-repeat center center fixed;
+background-size: cover;
+
+
+    }
+
+
+
+.singup {
+width: 300px;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+background: #fff ; opacity: 90%;
+padding: 20px;
+margin: -7%  ;
+text-align: center;
+border-radius: 30px;
+}
+.container {
+    display: flex;
+    padding-right: 150px;
+    padding-left: 150px;
+   width: 100%;
+    height: 200%;
+    margin-left: 200px;
+
+}
+
+.container1 {
+ display:flex;
+  height:200%;
+  width:80%;
+
+
+ padding-left: 10px;
+
+  }
+
+
+#first , #second {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin: 1px;
+     border:1px #051747;
+      color:#051747;
+    font-size:30px;
+    font-family: Roboto Slab;
+    height: 700px;
+
+
+}
+input , select {
+   border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #051747;
+    outline: none;
+}
+
+
+button {
+  color: #051747 ;
+  font-size: 15px;
+  padding: 10px 25px;
+  background: transparent;
+  border: 2px solid #051747;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background: #051747 ;
+  color: #fff;
+}
+
+a  {
+    font-size: 110%;
+    text-decoration: none;
+    text-decoration: underline #051747;
+    color: #051747;
+   font-family:Roboto Slab;
+}
+
+
+
+
+textarea {
+  /*  overflow: scroll; */
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #051747;
+    outline: none;
+
+
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 40px;
+
+}
+
+
+
+
+#logo {
+        width: 300px;
+        height: 150px;
+         
+}
+
+
+
+
+    
+    .gender {
+      float: left;
+      clear: none;
+      width: auto;
+    }
+    
+    label {
+      float: left;
+      clear: none;
+      display: block;
+      padding: 0px 1em 0px 8px;
+      margin-left: 80px;
+    }
+    
+
+.nav {
+    
+    display: flex;
+     align-items: center;
+
+}    
+
+
+p {
+ margin-left: auto;
+    margin-right: auto;
+    color:#051747;
+    font-size:25px;
+    font-family: Roboto Slab;
+}
+
+h1 {
+  margin-left: 100px;
+    color: #051747;
+    font-size: 60px;
+}
+
+h2 {
+    color: #051747;
+    font-family:Rozha One; 
+ font-size: 30px;
+ text-decoration: underline;
+ padding-bottom: 35px;
+ padding-top: 20px;
+}
+h3 {
+   margin-left: 250px;
+   margin-top: 10px;
+font-family:Rozha One; 
+}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+
+
+
+
+
+    .company_name{
+
+      margin-bottom: 10px;
+      font-weight: bold;
+
+    }
+
+
+    .nav-links {
+        width: 85%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    
+    #Post:hover{
+        background-color: #051747;
+        
+    }
+
+
+
+   .left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  }
+
+  .sidebar span{
+  font-size: large;
+   }
+
+  .sidebar {
+  background: #051747;
+  margin-top: 150px;
+  padding-top: 30px;
+  position: fixed;
+  width: 250px;
+  height: 75%;
+  transition: 0.5s;
+  transition-property: left;
+  border-radius: 30px;
+ box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+ opacity: 95%;
+        
+  }
+
+  .sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  }
+
+  .sidebar h4{
+    color: white;
+    font-size: large;
+  margin-top: 0;
+  margin-bottom: 20px;
+  }
+
+   .sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+ }
+
+  .sidebar a:hover{
+  background: #263970;
+  }
+
+ .sidebar i{
+  padding-right: 10px;
+  }
+
+ .site{
+        align-items: center;
+        display: flex;
+    }
+
+
+.inlineForm{
+display: inline;
+}
+
+.alert{
+    background-color: red ;
+    opacity: 50%;
+    color: black;
+    border-color: red;
+text-align: center;
+  }

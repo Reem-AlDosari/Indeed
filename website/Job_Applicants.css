@@ -1,0 +1,140 @@
+body{
+     
+        min-height: 100vh;
+       background:url(pages.png);
+       background-size: cover;
+    }
+
+
+ .left_area h3{
+      color: #fff;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 22px;
+      font-weight: 900;
+  }
+
+  .sidebar span{
+    font-size: large;
+     }
+  
+    .sidebar {
+    background: #051747;
+    margin-top: 150px;
+    padding-top: 30px;
+    position: fixed;
+    width: 250px;
+    height: 75%;
+    margin-left: -8px;
+    transition: 0.5s;
+    transition-property: left;
+    border-radius: 30px;
+   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+   opacity: 95%;
+          
+    }
+  
+    .sidebar .profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    }
+  
+    .sidebar h4{
+      color: white;
+      font-size: large;
+    margin-top: 0;
+    margin-bottom: 20px;
+    }
+  
+     .sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+   }
+  
+    .sidebar a:hover{
+    background: #263970;
+    }
+  
+   .sidebar i{
+    padding-right: 10px;
+    }
+
+  .nav {
+    display: flex;
+     align-items: center;
+} 
+#logo {
+    width: 300px;
+    height: 150px;
+}
+
+  #message{
+       width: 70%;
+      margin: 10px auto;
+      padding-left: 270px;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+      background: #76D7C4 ; opacity: 90%;
+      padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     margin-bottom: 20px;
+
+  }
+
+
+.large{
+    margin-left: 100px;
+    color: #051747;
+    font-size: 60px;
+}
+
+
+.aa {
+  color: #051747 ;
+  font-size: 15px;
+  padding: 10px 25px;
+  background: transparent;
+  border: 2px solid #051747;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  float: right;
+  margin: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.aa:hover{
+  background: #051747 ;
+  color: #fff;
+}
+
+
+
+
+#container{
+      width: 70%;
+      margin: 20px auto;
+      padding-left: 270px;
+     
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+      background: #fff ; opacity: 90%;
+      padding: 20px;
+     text-align: center;
+     border-radius: 30px;
+
+  }
+
+  th, td {
+  padding: 15px;
+  text-align: left;
+}

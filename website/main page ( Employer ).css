@@ -1,0 +1,202 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+    body{
+        height: 100vh;
+        background: url(pages1.png) no-repeat;
+        background-size: cover;
+    }
+
+    div.content{
+     margin: auto;
+    padding: 40px;
+    height: fit-content;
+    
+    }
+
+    #logo {
+        width: 300px;
+        height: 150px;
+    }
+
+  button {
+  color: #051747 ;
+  font-size: 15px;
+  padding: 10px 25px;
+  background: transparent;
+  border: 2px solid #051747;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  
+  }
+  button:hover {
+  background: #051747 ;
+  color: #fff;
+ }
+
+   .Details{
+  margin-bottom: 1px;
+  }
+
+    .content {
+        
+        padding-top: 30px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: #fff ; opacity: 90%;
+        height: 700px;
+        width: 1000px;
+        border-radius: 30px;
+      
+    }
+    .single-container {
+        padding: 20px;
+        padding-left: 10px;
+        margin: 20px;
+        height: 140px;
+        background-color:#e7e9f0;
+        text-align: right;
+        border-radius: 30px;
+        
+
+    }
+
+    p {
+        text-align: left;
+        color: #051747;
+        font-size: larger;
+
+    }
+
+    .photo {
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 5px;
+        width: 80px;
+        height: 80px;
+        float: left;
+
+    }
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+
+    h1 {
+        font-size: 90px;
+        color:#051747;
+    }
+
+    
+
+
+    .company_name{
+
+      margin-bottom: 10px;
+      font-weight: bold;
+
+    }
+
+
+    .nav-links {
+        width: 85%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    
+    #Post:hover{
+        background-color: #051747;
+        
+    }
+
+
+
+   .left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  }
+
+  .sidebar span{
+  font-size: large;
+   }
+
+  .sidebar {
+  background: #051747;
+  margin-top: 150px;
+  padding-top: 30px;
+  position: fixed;
+  width: 250px;
+  height: 75%;
+  transition: 0.5s;
+  transition-property: left;
+  border-radius: 30px;
+ box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+ opacity: 95%;
+        
+  }
+
+  .sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  }
+
+  .sidebar h4{
+    color: white;
+    font-size: large;
+  margin-top: 0;
+  margin-bottom: 20px;
+  }
+
+   .sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+ }
+
+  .sidebar a:hover{
+  background: #263970;
+  }
+
+ .sidebar i{
+  padding-right: 10px;
+  }
+
+ .site{
+        align-items: center;
+        display: flex;
+    }
+
+
+.inlineForm{
+display: inline;
+}
+
+.alert{
+    background-color: red ;
+    opacity: 50%;
+    color: black;
+    border-color: red;
+text-align: center;
+  }
